@@ -1,0 +1,28 @@
+body{
+    background-color:#153594;
+}
+h1{
+    color: rgb(255, 155, 6);
+    background-color: blue;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid whitesmoke;
+    margin-top: 50px;
+    border-radius: 20px;
+    animation-name:Sketch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Sketch {
+    from{box-shadow: 1px 1px 38px royalblue;}
+    to{box-shadow: 1px 1px 38px royalblue;}
+}
+p{
+    padding: top 10px;
+    font-size: large;
+    color:rgb(255,255,255);
+    font-weight: bold;
+}
